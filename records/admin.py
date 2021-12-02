@@ -3,6 +3,6 @@ from.models import Record
 
 
 class RecordAdmin(admin.ModelAdmin):
-    list_display = ('sender', 'filename', 'office', 'receiver', 'date')
+    list_display = ('sender', 'particulars', 'office', 'receiver', 'date')
 
 admin.site.register(Record, RecordAdmin)
