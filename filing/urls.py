@@ -22,5 +22,6 @@ admin.site.index_title = "Welcome to UMAT Administration Portal"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # pages
     path('', include('pages.urls', namespace='pages')),
 ]
